@@ -1,9 +1,7 @@
 package com.example.sms_sender_api;
 
+import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import com.twilio.Twilio;
-import com.twilio.rest.api.v2010.account.Message;
 
 @SpringBootApplication
 public class SmsSenderApiApplication {
@@ -12,7 +10,7 @@ public class SmsSenderApiApplication {
 	// and set the environment variables. See http://twil.io/secure
 	public static void main(String[] args) {
 		// SpringBootApplication.run(SmsSenderApiApplication.class, args);
-
+		SpringApplication.run(SmsSenderApiApplication.class, args);
 	}
 
 }

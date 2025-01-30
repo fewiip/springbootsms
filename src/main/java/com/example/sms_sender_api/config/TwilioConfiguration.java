@@ -16,4 +16,16 @@ public class TwilioConfiguration {
 		this.authToken = authToken;
 		this.trialNumber = trialNumber;
 	}
+
+	public String getAccountSid() {
+		return this.accountSid;
+	}
+
+	public String getAuthToken() {
+		return this.authToken;
+	}
+
+	public String getTrialNumber() {
+		return this.trialNumber;
+	}
 }
